@@ -1,0 +1,82 @@
+{
+  "company": "ABC Support Services",
+  "version": "1.0",
+  "lastUpdated": "2026-01-01",
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is your refund policy?",
+      "answer": "Customers can request a refund within 14 days of purchase. After 14 days, refunds are not eligible unless required by law."
+    },
+    {
+      "id": 2,
+      "question": "How long does support take to respond?",
+      "answer": "Our support team typically responds within 24 to 48 hours depending on the complexity of the issue."
+    },
+    {
+      "id": 3,
+      "question": "How can I reset my password?",
+      "answer": "You can reset your password by clicking on 'Forgot Password' on the login page and following the instructions sent to your email."
+    },
+    {
+      "id": 4,
+      "question": "Do you offer 24/7 support?",
+      "answer": "Yes, we provide 24/7 support for premium customers. Standard customers receive business-hours support."
+    }
+  ],
+  "policies": [
+    {
+      "id": 101,
+      "title": "Refund Policy",
+      "content": "Refunds are only applicable within 14 days of purchase. Digital services once consumed are non-refundable unless service failure is proven."
+    },
+    {
+      "id": 102,
+      "title": "Data Privacy Policy",
+      "content": "We ensure all customer data is encrypted and stored securely. We do not share personal data with third parties without consent."
+    },
+    {
+      "id": 103,
+      "title": "Account Suspension Policy",
+      "content": "Accounts may be suspended for violations including fraud, abuse, or violation of terms of service."
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": 1001,
+      "issue": "Customer did not receive refund",
+      "resolution": "Refund processed manually after verification within SLA."
+    },
+    {
+      "id": 1002,
+      "issue": "Login issue due to password reset failure",
+      "resolution": "Password reset link reissued and issue resolved."
+    },
+    {
+      "id": 1003,
+      "issue": "Delayed response from support team",
+      "resolution": "Ticket escalated and response delivered within 24 hours."
+    }
+  ],
+  "sampleAIResponses": [
+    {
+      "id": 2001,
+      "query": "I want a refund",
+      "response": "We understand your concern. As per our policy, refunds are available within 14 days of purchase. Please share your order details for assistance."
+    },
+    {
+      "id": 2002,
+      "query": "My account is locked",
+      "response": "Your account may be locked due to multiple failed login attempts. Please reset your password or contact support for assistance."
+    }
+  ],
+  "feedbackRecords": [
+    {
+      "id": 3001,
+      "query": "Refund request",
+      "aiResponse": "Refunds are allowed within 14 days.",
+      "agentFeedback": "Correct but needs softer tone",
+      "rating": 4
+    }
+  ]
+}
